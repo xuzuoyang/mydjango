@@ -14,7 +14,7 @@ TBD
 
 - [x] launch.
 - [x] add travis.
-- [ ] cookiecutter this.
+- [x] cookiecutter this.
 - [ ] more options for pytest.
 - [ ] enrich base model for queries.
 
