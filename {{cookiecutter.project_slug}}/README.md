@@ -1,9 +1,9 @@
-# Mydjango
+# {{cookiecutter.project_name}}
 
-[![Build Status](https://travis-ci.org/xuzuoyang/mydjango.svg?branch=master)](https://travis-ci.org/xuzuoyang/mydjango)
+[![Build Status](https://travis-ci.org/xuzuoyang/{{cookiecutter.project_slug}}.svg?branch=master)](https://travis-ci.org/xuzuoyang/{{cookiecutter.project_slug}})
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-Mydjango is a structured django project template packed with handful tool functions.
+{{cookiecutter.project_name}} is a structured django project template packed with handful tool functions.
 
 ## Usage
 ```

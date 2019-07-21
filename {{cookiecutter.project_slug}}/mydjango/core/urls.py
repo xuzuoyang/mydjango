@@ -1,4 +1,4 @@
-"""mydjango URL Configuration
+"""{{cookiecutter.project_slug}} URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.2/topics/http/urls/
@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.urls import include, re_path
 
-from mydjango.myapp.urls import myapp_api_urls, myapp_index_urls
+from {{cookiecutter.project_slug}}.myapp.urls import myapp_api_urls, myapp_index_urls
 
 urlpatterns = [
     re_path(r'^myapp/', include(myapp_index_urls)),

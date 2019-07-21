@@ -4,7 +4,7 @@ from django.utils.decorators import method_decorator
 from django.views import View
 from django.views.decorators.csrf import csrf_exempt
 
-from mydjango.libs.views import (
+from {{cookiecutter.project_slug}}.libs.views import (
     handle_api_errors, pick_request_data, respond, respond_json
 )
 
